@@ -243,7 +243,7 @@ def my_answer_list(request):
 
         "page_numbers": page_numbers,
     }
-
+    
     return render(request, "writers/my_answer_list.html", context)
 
 """
